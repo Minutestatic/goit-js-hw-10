@@ -1,7 +1,6 @@
 const BASE_URL = 'https://restcountries.com/v3.1/name/';
-// const country = 'Ukraine';
 
-function fetchCountries(country) {
+function fetchCountries() {
   const URL = `${BASE_URL}${country}?fields=name,capital,population,flags,languages`;
   return fetch(URL).then(resp => {
     if (!resp.ok) {
