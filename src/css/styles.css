@@ -18,3 +18,35 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+p,
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.country-iteam {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.country-iteam:last-child {
+  margin-bottom: 0;
+}
+
+.span-txt {
+  font-weight: 700;
+}
