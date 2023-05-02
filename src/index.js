@@ -55,7 +55,6 @@ function citySearchResult(countrys) {
 }
 
 function citiInfoResult(country) {
-  console.log(country);
   return country
     .map(
       ({
